@@ -1,0 +1,143 @@
+body,p{
+   padding: 0px;
+    margin: 0px;
+}
+
+.div{
+     width: 100%;
+     background: url(../image/渐变图案.png);
+     background-size: 100%;
+ }
+
+html{
+   font-size: 625%;
+}
+
+.head_line{
+    height: 1.2rem;
+}
+.head_line_p{
+    width: 32%;
+    height: 0.5rem;
+    border-radius: 0.03rem;
+    border: solid white 0.01rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 35%;
+    font-size: 22px;
+}
+.p1{
+    width: 50%;
+    height: 100%;
+    line-height: 0.5rem;
+    text-align: center;
+    color: white;
+}
+.r{
+    float: right;
+}
+.l{
+    float: left;
+}
+/*.p1:hover{*/
+    /*background-color: white;*/
+    /*color: rgb(42,138,255);*/
+/*}*/
+#p11{
+    background-color: white;
+    color: rgb(42,138,255);
+}
+
+.middle{
+    height: 4.3rem;
+    /*background-color: rgb(42,138,255);*/
+}
+
+.middle_div1{
+    height: 2.7rem;
+    color: white;
+    text-align: center;
+}
+
+.middle_p1{
+   font-size: 28px;
+}
+.middle_p2{
+    font-size: 49px;
+    line-height: 1.5rem;
+    /*position: absolute;*/
+    /*margin-top: 0.9rem;*/
+}
+.middle_div2{
+  color: white;
+    height: 1.6rem;
+}
+.middle_div2_p1{
+    font-size: 32px;
+}
+.middle_div2_p2{
+    font-size: 21px;
+}
+.width{
+    width: 33%;
+    text-align: center;
+}
+.middle_div3{
+    height: 0.9rem;
+    background-color: rgb(244,244,244);
+}
+.foot{
+    height: 5rem;
+    background-color: rgb(255,255,255);
+}
+.five{
+    width: 16%;
+    height: 0.56rem;
+    /*background-color: rgb(229,229,229);*/
+    border-radius: 0.1rem;
+    margin-left:2%;
+    margin-top: 15px;
+    font-size: 17px;
+    line-height: 0.56rem;
+    text-align: center;
+}
+.six{
+    width: 6.8%;
+    height: 0.56rem;
+    /*background-color: rgb(229,229,229);*/
+    border-radius: 0.1rem;
+    margin-left:2%;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.foot_d{
+    width: 95%;
+    height: 1.9rem;
+    margin-left: 2.5%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px rgba(107, 107, 107, 0.258823529411765);
+}
+.d1{
+    font-size: 24px;
+    height: 0.6rem;
+    border: solid 2px rgba(58,58,58,0.1);
+    line-height: 0.6rem;
+    font-weight: 800;
+}
+.d1_span{
+    margin-left: 7%;
+}
+.d2_div{
+    width: 23%;
+    font-size: 21px;
+    color: rgb(147,161,181);
+    text-align: center;
+    margin-left: 0%;
+    line-height: 0.5rem;
+}
+
+.d2_p{
+    font-size: 28px;
+}

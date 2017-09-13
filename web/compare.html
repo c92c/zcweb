@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>对面模式</title>
+    <link type="text/css" rel="stylesheet" href="../easyui/themes/default/easyui.css">
+    <link type="text/css" rel="stylesheet" href="../easyui/themes/icon.css">
+    <link type="text/css" rel="stylesheet" href="../easyui/demo/demo.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="./css/compare.css">
+    <script type="text/javascript" rel="script" src="js/jquery.min.js"></script>
+    <script type="text/javascript" rel="script" src="../easyui/jquery.easyui.min.js"></script>
+</head>
+<body>
+<div class="head">
+    <div class="head_line_p">
+        <div class="p1 l" id="p3" onclick=""><span>数据模式</span></div>
+        <div class="p1 r" id="p4" onclick=""><span>清单模式</span></div>
+    </div>
+</div>
+<div class="compare_table">
+    <table id="table" class="easyui-datagrid" style="width: 100%;height: 100%">
+        <thead data-options="frozen:true">
+        <tr>
+            <th data-options="field:'project'" style="width: 40%">项目名称（ID）</th>
+        </tr>
+        </thead>
+        <thead>
+        <tr>
+            <th data-options="field:'a',align:'center'" style="width: 20%">风机数量（台）</th>
+            <th data-options="field:'b',align:'center'" style="width: 20%">馈线（条）</th>
+            <th data-options="field:'c',align:'center'" style="width: 20%">装机容量（MW）</th>
+            <th data-options="field:'d',align:'center'" style="width: 20%">当日发电（万kWH）</th>
+            <th data-options="field:'e',align:'center'" style="width: 20%">当月发电（万kWH）</th>
+            <th data-options="field:'f',align:'center'" style="width: 20%">当年发电（万kWH）</th>
+            <th data-options="field:'g',align:'center'" style="width: 20%">累计发电（万kWH）</th>
+            <th data-options="field:'h',align:'center'" style="width: 20%">参考电价（w/元）</th>
+            <th data-options="field:'i',align:'center'" style="width: 20%">评估收入（年/万）</th>
+            <th data-options="field:'j',align:'center'" style="width: 20%">实际收入（年/万）</th>
+            <th data-options="field:'k',align:'center'" style="width: 20%">参考成本（年/万）</th>
+            <th data-options="field:'l',align:'center'" style="width: 20%">收益率（%）</th>
+            <th data-options="field:'m',align:'center'" style="width: 20%">回报率（%）</th>
+            <th data-options="field:'n',align:'center'" style="width: 20%">增长率（%）</th>
+            <th data-options="field:'o',align:'center'" style="width: 20%">资产周转率（次）</th>
+            <th data-options="field:'p',align:'center'" style="width: 20%">负债率（%）</th>
+            <th data-options="field:'q',align:'center'" style="width: 20%">流动比率（%）</th>
+            <th data-options="field:'r',align:'center'" style="width: 20%">速动比率（%）</th>
+            <th data-options="field:'s',align:'center'" style="width: 20%">等效满发（h）</th>
+            <th data-options="field:'t',align:'center'" style="width: 20%">损失电量（kWh）</th>
+            <th data-options="field:'u',align:'center'" style="width: 20%">平均风速（m/s）</th>
+            <th data-options="field:'v',align:'center'" style="width: 20%">TBA（%）</th>
+            <th data-options="field:'w',align:'center'" style="width: 20%">PAB（%）</th>
+            <th data-options="field:'x',align:'center'" style="width: 20%">MTBF（h）</th>
+        </tr>
+        </thead>
+    </table>
+</div>
+<script type="text/javascript" rel="script" src="js/opera.js"></script>
+<script type="text/javascript" rel="script" src="js/data.js"></script>
+</body>
+</html>

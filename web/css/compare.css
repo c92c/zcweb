@@ -1,0 +1,49 @@
+.head{
+    height: 1.2rem;
+    background-color: rgb(42,138,255);
+}
+
+.head_line_p{
+    position: absolute;
+    top:0.3rem;
+}
+.compare_table{
+    width: 100%;
+    height: 15rem;
+    background-color: #00bbee;
+}
+.datagrid-header .datagrid-cell {
+    height: 1rem;
+    line-height: 1rem;
+    background-color: white;
+}
+.datagrid-header .datagrid-cell span {
+    font-size: 0.25rem;
+   font-family: AdobeHeitiStd-Regular;
+}
+.datagrid-cell,
+.datagrid-cell-group,
+.datagrid-header-rownumber,
+.datagrid-cell-rownumber {
+    margin: 0;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.25rem;
+    font-family: AdobeHeitiStd-Regular;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.datagrid-header td,
+.datagrid-body td,
+.datagrid-footer td {
+   text-align: center;
+}
+#p4{
+    background-color: white;
+    color: rgb(42,138,255);
+}

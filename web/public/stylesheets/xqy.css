@@ -1,0 +1,283 @@
+/*html{*/
+    /*font-size: 100px;*/
+/*}*/
+
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    font-family: "PingFang-SC-Regular";
+    background-color: #fafafa;
+}
+
+.container{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header{
+    height: 80px;
+    background: #2a8aff;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.popup{
+    height: 266px;
+    background-color: #ffffff;
+    font-size: 24px;
+}
+
+.prompt{
+    margin: 0 20px;
+    padding: 40px 0 14px 18px;
+    height: 80px;
+    border-bottom: solid 1px #d2d2d2;
+}
+
+.prompt-txt{
+    line-height: 24px;
+    color: #2f2e2e;
+}
+
+.popup-txt{
+    margin-top: 21px;
+    padding: 0 36px;
+    color: #93a1b5;
+}
+
+.not-show{
+    width: 220px;
+    height: 56px;
+    color: #2a8aff;
+    margin: 0 auto;
+}
+
+.not-show input{
+    width: 220px;
+    height: 56px;
+    background-color: #ffffff;
+    border-radius: 6px 6px 6px 6px;
+    border: solid 1px rgba(42, 138, 255, 1);
+}
+
+.target{
+    height: 600px;
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #ffffff;
+}
+
+.box{
+    margin: 0 20px;
+    height: 108px;
+}
+
+.cell{
+    height: 108px;
+    width: 25%;
+    border-bottom: solid 1px rgba(210, 210, 210, 1);
+    display: block;
+    padding-top: 6px;
+    float: left;
+}
+
+.cell-active{
+    border-top: solid 6px #2e81ff;
+    border-bottom: none;
+    padding-top: 0;
+}
+
+.cell > span{
+    display: block;
+    text-align: center;
+}
+
+.target-num{
+    font-size: 36px;
+    color: #535e6e;
+    padding-top: 14px;
+}
+
+.target-num-active{
+    color: #2a8aff;
+    padding-top: 8px;
+}
+
+.target-name{
+    font-size: 22px;
+    color: #93a1b5;
+}
+
+.charts{
+    height: 350px;
+    padding: 75px 62px 0 62px;
+}
+
+.chart-container{
+    min-width: 100%;
+    height: 282px;
+}
+
+.show-more{
+    width: 280px;
+    height: 56px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.show-more input{
+    width: 280px;
+    height: 56px;
+    border-radius: 6px 6px 6px 6px;
+    border: solid 1px rgba(83, 94, 110, 1);
+    background-color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.station-info{
+    position: relative;
+    height: 63px;
+    margin-top: 20px;
+    background: #ffffff;
+    line-height: 63px;
+    font-size: 26px;
+    color: #535e6e;
+}
+
+.info-txt{
+    margin-left: 37px;
+}
+
+.info-sym{
+    position: absolute;
+    right: 35px;
+}
+
+.total-inc{
+    height: 730px;
+    margin: 20px 20px 0 20px;
+    background: #ffffff;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.top{
+    background: rgba(42, 138, 255, 1);
+    border-radius: 6px 6px 0 0;
+    color: #ffffff;
+    font-size: 26px;
+}
+
+.title{
+    height: 64px;
+    margin: 0 15px;
+    border-bottom: solid 1px rgba(255,255,255,1);
+    line-height: 64px;
+    position: relative;
+}
+
+.left-txt{
+    position: absolute;
+    left: 0;
+}
+
+.right-txt{
+    position: absolute;
+    right: 0;
+}
+
+.total-inc > .top{
+    height: 262px;
+}
+
+.year-sel{
+    height: 45px;
+    line-height: 45px;
+    margin: 20px 75px 0 75px;
+    border-radius: 6px 6px 6px 6px;
+    border: solid 1px #ffffff;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.year-cell{
+    display: inline-block;
+    float: left;
+    width: 25%;
+    height: 43px;
+    text-align: center;
+    border-right: solid 1px #ffffff;
+}
+
+.year-active{
+    background: #ffffff;
+    color: #2a8aff;
+}
+
+
+.income-num{
+    height: 63px;
+    margin: 30px 261px 0 261px;
+    color: #ffffff;
+}
+
+.income-num span{
+    display: block;
+    text-align: center;
+}
+
+.middle{
+    margin: 0 20px;
+    height: 270px;
+    border-bottom: solid 1px rgba(243, 243, 243, 1);
+}
+
+table{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #93a1b5;
+    margin-top: 10px;
+}
+
+tbody th{
+    font-size: 22px;
+}
+
+tr{
+    height: 20%;
+}
+
+thead{
+    margin: 0 20px;
+    border-bottom: solid 1px rgba(243, 243, 243, 1);
+}
+
+th{
+    text-align: center;
+    font-weight: normal;
+}
+
+tbody td{
+    color: #535e6e;
+}
+
+
+.bottom{
+    margin-top: 20px;
+}
+
+
+

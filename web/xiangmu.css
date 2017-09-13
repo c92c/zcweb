@@ -1,0 +1,201 @@
+body,p,span,div{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(60, 60, 60, 1);
+}
+.r{
+    float: right;
+}
+.l{
+    float: left;
+}
+
+
+.ben{
+    font-family:'华文细黑';
+    font-weight:400;
+    font-style:normal;
+    font-size:10px;
+    text-align:center;
+}
+
+#div1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 288px;
+    height: 45px;
+    background: inherit;
+    background-color: rgba(153, 153, 153, 1);
+    border: none;
+    border-radius: 0px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-style: normal;
+}
+
+#div1_1{
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    bottom: 8px;
+    width: 30px;
+    height: 30px;
+    background: inherit;
+    background-color: rgba(242, 242, 242, 1);
+    border: none;
+    border-radius: 23px;
+    box-shadow: none;
+}
+
+#div1_p1{
+    margin: 0px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-feature-settings: "kern";
+    font-kerning: normal;
+    position: absolute;
+    left: 130px;
+    top: 15px;
+    bottom: 15px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+#u30_img{
+    position: absolute;
+    right: 11px;
+    top: 15px;
+    bottom: 15px;
+}
+
+#u1499_img{
+    position: absolute;
+    right: 41px;
+    top: 15px;
+    bottom: 15px;
+}
+#div2{
+    position: absolute;
+    top: 45px;
+    width: 288px;
+    height: 417px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.div2_1{
+    width: 110px;
+    height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    text-align: left;
+    font-family: '华文细黑';
+    line-height: normal;
+    line-height: 12px;
+}
+
+#div2_1_1{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+#div2_1_2{
+    position: absolute;
+    top: 16px;
+   right: 16px;
+}
+#div2_1_3{
+    position: absolute;
+    top: 48px;
+    left: 16px;
+}
+#div2_1_4{
+    position: absolute;
+    top: 48px;
+    right: 16px;
+}
+#p{
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    color: #CCCCCC;
+}
+#middle{
+    width: 284px;
+    height: 17px;
+    color: #CCCCCC;
+    margin-top: 67px;
+    margin-left: 0.5px;
+    margin-right: 0.5px;
+}
+#bottom{
+    border-top: solid 1px white;
+    height: 23px;
+    font-family: '华文细黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 23px;
+    text-align: center;
+}
+.div2_2{
+    background-color: RGB(242,242,242);
+    color: #999999;
+}
+.center{
+    text-align: center;
+}
+.border-left{
+    border-left: solid 1px white;
+}
+
+#bottom_p1{
+    width: 48px;
+    height: 24px;
+}
+
+
+#bottom_p2{
+    width: 45px;
+    height: 24px;
+    border-left: solid 2px white;
+}
+.bottom_p3{
+    width: 46px;
+    height: 24px;
+    border-left: solid 2px white;
+}
+.div3{
+    width: 269px;
+    height: 69px;
+    margin-top: 10px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px rgba(107, 107, 107, 0.258823529411765);
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+#div3_1{
+    height: 28px;
+    background-color: rgba(153, 153, 153, 1);
+    line-height: 28px;
+    color: white;
+}
